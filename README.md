@@ -7,4 +7,4 @@
 * collaboration
 
 @Atemmuda [email](yaw.ayeboahfo@gmail.com) ||
-@odai307 [email](github.com)
+@odai307 [email](gabrielafotey@gmail.com)
