@@ -6,5 +6,5 @@
 * version control
 * collaboration
 
-@Atemmuda [email](yaw.ayeboahfo@gmail.com)
+@Atemmuda [email](yaw.ayeboahfo@gmail.com) ||
 @odai307 [email](github.com)
