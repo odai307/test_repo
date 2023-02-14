@@ -9,14 +9,20 @@ Unittest classes:
 import os
 import models
 import unittest
+<<<<<<< HEAD
 from datetime import datetime
 from time import sleep
+=======
+import uuid
+from datetime import datetime
+>>>>>>> refs/remotes/origin/main
 from models.base_model import BaseModel
 
 
 class TestBaseModel_instantiation(unittest.TestCase):
     """Unittests for testing instantiation of the BaseModel class."""
 
+<<<<<<< HEAD
     def test_no_args_instantiates(self):
         self.assertEqual(BaseModel, type(BaseModel()))
 
@@ -190,3 +196,20 @@ class TestBaseModel_to_dict(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+=======
+    def test_class_documentation(self):
+        """testing if class is documented"""
+        self.assertGreater(len(BaseModel.__doc__), 0)
+
+    def test_init_documentation(self):
+        """testing if class is documented"""
+        self.assertGreater(len(BaseModel.__init__.__doc__), 0)
+
+    def test_initialization(self):
+        """testing for the object initialization"""
+        self.assertEqual(print(BaseModel), None)
+
+    def test_str_documentation(self):
+        """testing if class is documented"""
+        self.assertGreater(len(BaseModel.__doc__), 0)
+>>>>>>> refs/remotes/origin/main
