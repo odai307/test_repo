@@ -26,3 +26,7 @@ class TestBaseModel(unittest.TestCase):
     def test_str_documentation(self):
         """testing if class is documented"""
         self.assertGreater(len(BaseModel.__doc__), 0)
+
+    def test_str_function(self):
+        baseModel  = BaseModel()
+        self.assertEqual(baseModel.__str__, print(baseModel))

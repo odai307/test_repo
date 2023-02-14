@@ -21,5 +21,6 @@ class BaseModel():
         self.updated_at = datetime.now()
 
     def __str__(self):
+        """for printing of the class object"""
         return "[{}] ({}) {}".format(type(self).__name__,
                                      self.id, self.__dict__)
